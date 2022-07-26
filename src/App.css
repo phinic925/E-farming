@@ -1,0 +1,18 @@
+.heading{
+    color: green;
+}
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+form{
+    text-align: center;
+    margin-top: 80px;
+}
+.header{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
