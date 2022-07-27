@@ -1,8 +1,20 @@
 .heading{
     color: green;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+}
+.para{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: oblique;
+
 }
 
-input{
+form input{
     padding: 15px;
     border-radius: 10px;
     
