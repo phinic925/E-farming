@@ -1,6 +1,17 @@
 import React from "react";
 import useFetch from "./useFetch";
-const[data] = useFetch("")
+const[data] = useFetch("http://localhost:3000/products")
+
+const fetchedData = data.map(item=>{ 
+    return 
+    <div className="product" key={item.id}>
+    <img src={item.image-url}/> 
+            <h3 className="header1"> {item.name} </h3>
+            <p className="header2">{item.description}</p>
+            <h4 className="header3"> {item.category} </h4>
+   
+            </div>
+})
 
 
 
@@ -21,12 +32,9 @@ function Home(){
      
       
     </div>
-    <div className="product">
-         <img src="https://i0.wp.com/www.farmworx.co.ke/wp-content/uploads/2021/07/green-cabbage.jpg?fit=1600%2C1200&ssl=1"/> 
-         <h3 className="header1"> Potatoes </h3>
-         <p className="header2">Description</p>
-         <h4 className="header3"> Category </h4>
-     </div>
+    {fetchedData}
+   
+
       
 
         
