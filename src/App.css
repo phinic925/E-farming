@@ -37,7 +37,8 @@ nav{
     
 }
 img{
-    width: 300px;
+    margin-top: 20px;
+    width: 350px;
     height: 250px;
 }
 .product{
@@ -63,4 +64,9 @@ img{
 .header3{
     margin-left: 80px;
     font-style: italic;
+}
+.button{
+    
+    margin-left: 100px;
+    
 }
