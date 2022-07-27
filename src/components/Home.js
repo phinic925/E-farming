@@ -1,4 +1,6 @@
 import React from "react";
+import useFetch from "./useFetch";
+const[data] = useFetch("")
 
 
 
@@ -15,9 +17,17 @@ function Home(){
        
       />
      <button className ="btn btn-primary"> search </button>
-      
+
+     
       
     </div>
+    <div className="product">
+         <img src="https://i0.wp.com/www.farmworx.co.ke/wp-content/uploads/2021/07/green-cabbage.jpg?fit=1600%2C1200&ssl=1"/> 
+         <h3 className="header1"> Potatoes </h3>
+         <p className="header2">Description</p>
+         <h4 className="header3"> Category </h4>
+     </div>
+      
 
         
         

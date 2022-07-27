@@ -29,6 +29,26 @@ form{
     font-size: 30px;
 }
 nav{
+    width: 100%;
+    
+    padding: 50px;
+}
+img{
+    width: 350px;
+}
+.product{
+    margin-top: 150px;
+    width: 100%;
+  
+}
+.header1{
+    margin-left: 80px;
+    margin-top: 20px ;
+}
+.header2{
+    margin-left: 80px;
 
-    margin-left: 200px;
+}
+.header3{
+    margin-left: 80px;
 }
