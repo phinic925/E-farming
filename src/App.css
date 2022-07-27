@@ -1,5 +1,5 @@
 .heading{
-    color: green;
+    color: whitesmoke;
     text-align: center;
     margin-top: 100px;
     font-size: 60px;
@@ -12,6 +12,9 @@
     font-size: 20px;
     font-style: oblique;
 
+}
+body{
+    background-image: linear-gradient(to top, #0BA360 0%, #3CBA92 100%);
 }
 
 form input{
@@ -31,14 +34,22 @@ form{
 nav{
     width: 100%;
     
-    padding: 50px;
+    
 }
 img{
-    width: 350px;
+    width: 300px;
+    height: 250px;
 }
 .product{
-    margin-top: 150px;
-    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(75, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+  
   
 }
 .header1{
@@ -46,9 +57,10 @@ img{
     margin-top: 20px ;
 }
 .header2{
-    margin-left: 80px;
+    margin-left: 0px;
 
 }
 .header3{
     margin-left: 80px;
+    font-style: italic;
 }

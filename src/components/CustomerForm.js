@@ -1,6 +1,6 @@
 import React from "react";
 
-function CustomerForm(){
+function FarmerForm(){
     return(
         <form className="form-horizontal">
            <div className="form-group">
@@ -26,4 +26,4 @@ function CustomerForm(){
         
     )
 }
-export default CustomerForm;
+export default FarmerForm;

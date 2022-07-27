@@ -1,21 +1,22 @@
 import React from "react";
 import useFetch from "./useFetch";
-const[data] = useFetch("http://localhost:3000/products")
 
-const fetchedData = data.map(item=>{ 
-    return 
-    <div className="product" key={item.id}>
-    <img src={item.image-url}/> 
-            <h3 className="header1"> {item.name} </h3>
-            <p className="header2">{item.description}</p>
-            <h4 className="header3"> {item.category} </h4>
+// const fetchedData = data.map(item=>{ 
+//     return 
+//     <div className="product" key={item.id}>
+//     <img src={item.image-url}/> 
+//             <h3 className="header1"> {item.name} </h3>
+//             <p className="header2">{item.description}</p>
+//             <h4 className="header3"> {item.category} </h4>
    
-            </div>
-})
+//             </div>
+// })
 
 
 
 function Home(){
+    const[data] = useFetch("http://localhost:3000/products")
+
     return(
         <>
         <h1 className="heading"> Mkulima Halisi </h1>
@@ -31,8 +32,31 @@ function Home(){
 
      
       
-    </div>
-    {fetchedData}
+     </div>
+     
+         {data && <div>
+             {data.map(item=>(
+
+                 <div className="product" key={item.id}>
+                 <img src={item.image_url}/> 
+                 
+                 <h3 className="header1"> {item.name} </h3>
+                 <p className="header2">{item.description}</p>
+                <h4 className="header3"> {item.category} </h4>
+   
+                 </div>
+               
+             ))}
+         
+         
+
+
+
+
+
+     </div>
+     }
+    
    
 
       
