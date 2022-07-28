@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css';
 import Home from './components/Home';
 import "bootstrap/dist/css/bootstrap.css"
@@ -16,6 +16,18 @@ import {
   
 } from 'react-router-dom';
 
+const [cart, setCart] = useState()
+const addToCart = (productId, variantInfo) => {
+
+  if(variantInfo) {
+      commerce.cart.add(productId, 1, variantInfo)
+          .then(res => {
+              setCart(res.cart)
+          })
+  } else {
+      window.alert('Please Select a Shirt Size')
+  }
+}
 
 function App() {
   return (
