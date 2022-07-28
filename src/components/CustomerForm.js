@@ -10,12 +10,12 @@ function FarmerForm(){
       e.preventDefault();
       const itemData = {
         name: name,
-        image_url: image_url,
+        image: image,
         description: description,
         category: category,
   
       };
-      fetch(url,{
+      fetch("http://localhost:3000/products",{
         method: "POST",
         headers:{"Content-Type": "application/json"},
         body:JSON.stringify(itemData),
@@ -26,19 +26,23 @@ function FarmerForm(){
     })
 }
     return(
-        <form className="form-horizontal">
+        <form className="form-horizontal" onSubmit={handleSubmit}>
            <div className="form-group">
-            <input type="text" placeholder="Enter Name"/>
+            <input type="text" placeholder="Enter Name" required value={name}
+          onChange={(e) => setName(e.target.value)}/>
             </div> <br/>
             <div className="form-group">
-            <input type="text" placeholder="Enter Image-url"/></div>
+            <input type="text" placeholder="Enter Image-url" required  value={image}
+          onChange={(e) => setImage_url(e.target.value)}/></div>
             <br/>
             <div className="form-group">
-            <input type="text" placeholder="Enter description"/> </div>
+            <input type="text" placeholder="Enter description" required value={description}
+          onChange={(e) => setDescription(e.target.value)}/> </div>
             <br/>
             <div className="form-group">
 
-            <input type="text" placeholder="Enter category"/> </div>
+            <input type="text" placeholder="Enter category" required value={category}
+          onChange={(e) => setCategory(e.target.value)}/> </div>
             <br/>
             <div className="form-group">
              
