@@ -1,78 +1,82 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Tomato",
-        "description": "Tomatoes are rich in lycopene, an antioxidant that is good for the heart and effective against certain cancers. Tomatoes are also packed with vitamins A and C, calcium and potassium",
-        "image_url": "https://images.unsplash.com/photo-1606588260160-0c4707ab7db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG9tYXRvZXN8ZW58MHx8MHx8&w=1000&q=80",
-        "category":"vegetable"
-        
-      },
-      {
-        "id": 2,
-        "name": "Cabbage",
-        "description": "Cabbage is high in dietary fiber, vitamin C, vitamin K, folate, potassium, manganese, vitamin A, thiamin, vitamin B6, calcium and iron .Cabbage contains quantities of fiber and iron, which help keep the digestive tract and colon in a healthy condition.",
-        "image_url": "https://www.greenlife.co.ke/wp-content/uploads/2019/02/Cabbage.jpg",
-        "category": "vegetable"
-      },
-      {
-        "id": 3,
-        "name": "Avocado",
-        "description": "Avocados have nearly 7 grams (0.25 ounces) of fiber per 100 grams.Avocado is famous for its less calorie content as that of butter",
-        "image_url": "https://media.istockphoto.com/photos/fresh-organic-avocado-at-farmers-market-healthy-food-picture-id1332477907?b=1&k=20&m=1332477907&s=170667a&w=0&h=0fuDzkcCDKiuqoy8OAsjVS3j-B9RTV4zLudFV8tNsTM=",
-        "category": "fruit"
-       
-      },
-      {
-        "id": 4,
-        "name": "Green beans",
-        "description": "",
-        "image_url": "https://image.shutterstock.com/image-photo/green-bean-background-260nw-475563214.jpg",
-        "category":"Cereal"
-      },
-      {
-        "id": 5,
-        "name": "Kale",
-        "description": "Venmo, Alice Pays you for Burrito",
-        "image_url": "https://i0.wp.com/www.farmworx.co.ke/wp-content/uploads/2021/07/green-cabbage.jpg?fit=1600%2C1200&ssl=1",
-        "category": "vegetable"
-      },
-      {
-        "id": 6,
-        "name": "pumpkin",
-        "description": "Chipotle",
-        "image_url": "https://images.everydayhealth.com/images/easy-as-pie-pumpkin-recipes-for-fall-alt-1440x810.jpg?sfvrsn=55e4e2e0_1",
-        "category": "fruit"
-      },
-      {
-        "id": 7,
-        "name": "Onions",
-        "description": "Birthday Check from Grandma",
-        "image_url": "https://netstorage-tuko.akamaized.net/images/0fgjhs490u2hul6qv.jpg",
-        "category": "vegetable"
-      },
-      {
-        "id": 8,
-        "name": "Brocolli",
-        "description": "Lyft Ride",
-        "image_url": "https://image.shutterstock.com/image-photo/broccoli-pile-on-market-260nw-470975708.jpg",
-        "category": "vegetable"
-      },
-      {
-        "id": 9,
-        "name": "Bananas",
-        "description": "Paycheck from Bob's Burgers",
-        "image_url": "https://www.fao.org/uploads/pics/banana_banner.jpg",
-        "category": "fruit"
-      },
-      {
-        "id": 10,
-        "name": "Peas",
-        "description": "Tickets, Flatiron Multiplex Cinemas",
-        "image_url": "https://www.thespruceeats.com/thmb/w0l9oF_GnuAvFBhrV8lAfhWA4lU=/1832x1231/filters:no_upscale():max_bytes(150000):strip_icc()/TeekeshKumarKumawatEyeEm-97a1cdcd813542eda7846a6addc3bd1e.jpg",
-        "category": "Cereal"
-      }
-      
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "name": "Tomato",
+      "description": "Tomatoes are rich in lycopene, an antioxidant that is good for the heart and effective against certain cancers. Tomatoes are also packed with vitamins A and C, calcium and potassium",
+      "image_url": "https://images.unsplash.com/photo-1606588260160-0c4707ab7db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG9tYXRvZXN8ZW58MHx8MHx8&w=1000&q=80",
+      "category": "vegetable"
+    },
+    {
+      "id": 2,
+      "name": "Cabbage",
+      "description": "Cabbage is high in dietary fiber, vitamin C, vitamin K, folate, potassium, manganese, vitamin A, thiamin, vitamin B6, calcium and iron .Cabbage contains quantities of fiber and iron, which help keep the digestive tract and colon in a healthy condition.",
+      "image_url": "https://www.greenlife.co.ke/wp-content/uploads/2019/02/Cabbage.jpg",
+      "category": "vegetable"
+    },
+    {
+      "id": 3,
+      "name": "Avocado",
+      "description": "Avocados have nearly 7 grams (0.25 ounces) of fiber per 100 grams.Avocado is famous for its less calorie content as that of butter",
+      "image_url": "https://media.istockphoto.com/photos/fresh-organic-avocado-at-farmers-market-healthy-food-picture-id1332477907?b=1&k=20&m=1332477907&s=170667a&w=0&h=0fuDzkcCDKiuqoy8OAsjVS3j-B9RTV4zLudFV8tNsTM=",
+      "category": "fruit"
+    },
+    {
+      "id": 4,
+      "name": "Green beans",
+      "description": "",
+      "image_url": "https://image.shutterstock.com/image-photo/green-bean-background-260nw-475563214.jpg",
+      "category": "Cereal"
+    },
+    {
+      "id": 5,
+      "name": "Kale",
+      "description": "Venmo, Alice Pays you for Burrito",
+      "image_url": "https://i0.wp.com/www.farmworx.co.ke/wp-content/uploads/2021/07/green-cabbage.jpg?fit=1600%2C1200&ssl=1",
+      "category": "vegetable"
+    },
+    {
+      "id": 6,
+      "name": "pumpkin",
+      "description": "Chipotle",
+      "image_url": "https://images.everydayhealth.com/images/easy-as-pie-pumpkin-recipes-for-fall-alt-1440x810.jpg?sfvrsn=55e4e2e0_1",
+      "category": "fruit"
+    },
+    {
+      "id": 7,
+      "name": "Onions",
+      "description": "Birthday Check from Grandma",
+      "image_url": "https://netstorage-tuko.akamaized.net/images/0fgjhs490u2hul6qv.jpg",
+      "category": "vegetable"
+    },
+    {
+      "id": 8,
+      "name": "Brocolli",
+      "description": "Lyft Ride",
+      "image_url": "https://image.shutterstock.com/image-photo/broccoli-pile-on-market-260nw-470975708.jpg",
+      "category": "vegetable"
+    },
+    {
+      "id": 9,
+      "name": "Bananas",
+      "description": "Paycheck from Bob's Burgers",
+      "image_url": "https://www.fao.org/uploads/pics/banana_banner.jpg",
+      "category": "fruit"
+    },
+    {
+      "id": 10,
+      "name": "Peas",
+      "description": "Tickets, Flatiron Multiplex Cinemas",
+      "image_url": "https://www.thespruceeats.com/thmb/w0l9oF_GnuAvFBhrV8lAfhWA4lU=/1832x1231/filters:no_upscale():max_bytes(150000):strip_icc()/TeekeshKumarKumawatEyeEm-97a1cdcd813542eda7846a6addc3bd1e.jpg",
+      "category": "Cereal"
+    },
+    {
+      "name": "Spinach",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpbmFjaHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "description": "It is a good vegetable",
+      "category": "vegetable",
+      "id": 11
+    }
+    
+  ]
+}

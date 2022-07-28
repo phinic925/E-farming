@@ -1,21 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import useFetch from "./useFetch";
-
-// const fetchedData = data.map(item=>{ 
-//     return 
-//     <div className="product" key={item.id}>
-//     <img src={item.image-url}/> 
-//             <h3 className="header1"> {item.name} </h3>
-//             <p className="header2">{item.description}</p>
-//             <h4 className="header3"> {item.category} </h4>
-   
-//             </div>
-// })
 
 
 
 function Home(){
     const[data] = useFetch("http://localhost:3000/products")
+    const[search,setSearch] = useState("");
+    function handleSearch(e){
+        setSearch(e.target.value)
+    }
 
     return(
         <>
