@@ -48,7 +48,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: white;
+    background: black;
     align-items: center;
   
   
@@ -56,14 +56,17 @@ img{
 .header1{
     margin-left: 80px;
     margin-top: 20px ;
+    color: wheat;
 }
 .header2{
     margin-left: 0px;
+    color: wheat;
 
 }
 .header3{
     margin-left: 80px;
     font-style: italic;
+    color: wheat;
 }
 .button{
     

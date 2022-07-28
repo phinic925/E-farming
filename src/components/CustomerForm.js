@@ -10,7 +10,7 @@ function FarmerForm(){
       e.preventDefault();
       const itemData = {
         name: name,
-        image: image,
+        image_url: image,
         description: description,
         category: category,
   
@@ -25,16 +25,16 @@ function FarmerForm(){
       console.log(data)
     })
 }
+   function handleImage(e){
+       setImage_url((e.target.value))
+   }
     return(
         <form className="form-horizontal" onSubmit={handleSubmit}>
            <div className="form-group">
             <input type="text" placeholder="Enter Name" required value={name}
           onChange={(e) => setName(e.target.value)}/>
             </div> <br/>
-            <div className="form-group">
-            <input type="text" placeholder="Enter Image-url" required  value={image}
-          onChange={(e) => setImage_url(e.target.value)}/></div>
-            <br/>
+            
             <div className="form-group">
             <input type="text" placeholder="Enter description" required value={description}
           onChange={(e) => setDescription(e.target.value)}/> </div>
@@ -45,6 +45,9 @@ function FarmerForm(){
           onChange={(e) => setCategory(e.target.value)}/> </div>
             <br/>
             <div className="form-group">
+            <div className="form-group">
+            <input type="url" placeholder="Enter Image-url" className = "image" required value={image} onChange={handleImage} /></div>
+            <br/>
              
             <input type="submit" value="Add product" className="btn btn-primary" />
             </div>

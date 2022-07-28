@@ -3,10 +3,24 @@ import useFetch from "./useFetch";
 
 
 
-function Home(){
+function Home({addToCart}){
     const[data] = useFetch("http://localhost:3000/products")
     const[search,setSearch] = useState("");
     
+
+    // const handleClick = (item) => {
+    //     if (cart.indexOf(item) !== -1) return;
+    //     setCart([...cart, item]);
+    //   };
+    
+    //   const handleChange = (item, d) => {
+    //     const ind = cart.indexOf(item);
+    //     const arr = cart;
+    //     arr[ind].amount += d;
+    
+    //     if (arr[ind].amount === 0) arr[ind].amount = 1;
+    //     setCart([...arr]);
+    //   };
        
     
     return(
@@ -21,7 +35,7 @@ function Home(){
         onChange={(e)=>setSearch(e.target.value) }
        
       />
-     <button className ="btn btn-primary"> search </button>
+     <button className ="btn btn-primary" > search </button>
 
      
       
@@ -47,6 +61,7 @@ function Home(){
              .map(item=>(
 
                  <div className="product" key={item.id}>
+                     
                  <img src={item.image_url}/> 
                  
                  <h3 className="header1"> {item.name} </h3>
