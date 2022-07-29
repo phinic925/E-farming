@@ -24,49 +24,49 @@
     {
       "id": 4,
       "name": "Green beans",
-      "description": "",
+      "description": "Green beans  have a tough fiber (called a string) on them. This string is removed when the beans are cooked,Green beans are healthy. They’re a good source of vitamin A, Vitamin and folate",
       "image_url": "https://image.shutterstock.com/image-photo/green-bean-background-260nw-475563214.jpg",
       "category": "Cereal"
     },
     {
       "id": 5,
       "name": "Kale",
-      "description": "Venmo, Alice Pays you for Burrito",
+      "description": "Kale is a good source of vitamins A, C, and K. In fact, just one cup of kale provides more vitamin A and K than you need in a whole day. Antioxidants are found in kale, which promotes general health and well-being. cabbage, and has a ruffled texture.",
       "image_url": "https://i0.wp.com/www.farmworx.co.ke/wp-content/uploads/2021/07/green-cabbage.jpg?fit=1600%2C1200&ssl=1",
       "category": "vegetable"
     },
     {
       "id": 6,
       "name": "pumpkin",
-      "description": "Chipotle",
+      "description": "Pumpkins are a nutrient-dense and naturally low-calorie food. One cup of cooked pumpkin is only 49 calories, but contains 49 percent of your daily needs for vitamin K, along with vitamin C, potassium, vitamin E, iron, folate, and niacin.",
       "image_url": "https://images.everydayhealth.com/images/easy-as-pie-pumpkin-recipes-for-fall-alt-1440x810.jpg?sfvrsn=55e4e2e0_1",
       "category": "fruit"
     },
     {
       "id": 7,
       "name": "Onions",
-      "description": "Birthday Check from Grandma",
+      "description": "Onions contain antioxidants and compounds that fight inflammation, decrease triglycerides and reduce cholesterol levels — all of which may lower heart disease risk. Their potent anti-inflammatory properties may also help reduce high blood pressure and protect against blood clots",
       "image_url": "https://netstorage-tuko.akamaized.net/images/0fgjhs490u2hul6qv.jpg",
       "category": "vegetable"
     },
     {
       "id": 8,
       "name": "Brocolli",
-      "description": "Lyft Ride",
+      "description": "Broccoli is a nutrient-rich vegetable that may enhance your health in a variety of ways, such as by reducing inflammation, improving blood sugar control, boosting immunity and promoting heart health. However, keep in mind that good health doesn't come from any single food.",
       "image_url": "https://image.shutterstock.com/image-photo/broccoli-pile-on-market-260nw-470975708.jpg",
       "category": "vegetable"
     },
     {
       "id": 9,
       "name": "Bananas",
-      "description": "Paycheck from Bob's Burgers",
+      "description": "Bananas are incredibly healthy, convenient, delicious, and one of the most inexpensive fresh fruits you can buy. This makes them an excellent choice for anyone interested in eating healthy.",
       "image_url": "https://www.fao.org/uploads/pics/banana_banner.jpg",
       "category": "fruit"
     },
     {
       "id": 10,
       "name": "Peas",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
+      "description": " Peas are a good source of vitamins C and E, zinc, and other antioxidants that strengthen your immune system. Other nutrients, such as vitamins A and B and coumestrol, help reduce inflammation and lower your risk of chronic conditions, including diabetes, heart disease, and arthritis.",
       "image_url": "https://www.thespruceeats.com/thmb/w0l9oF_GnuAvFBhrV8lAfhWA4lU=/1832x1231/filters:no_upscale():max_bytes(150000):strip_icc()/TeekeshKumarKumawatEyeEm-97a1cdcd813542eda7846a6addc3bd1e.jpg",
       "category": "Cereal"
     },
