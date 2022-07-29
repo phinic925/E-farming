@@ -1,19 +1,19 @@
 import React from "react";
 //import {CartProvider} from "./CartContext"
 import {useContext} from "react"
-import CartContext from "./CartContext";
-import { CartProvider } from './components/CartContext';
+import CartContext, { CartProvider } from "./CartContext";
+ 
 
 function Products(){
     const {items} = useContext(CartContext);
 
     return(
-        <CartProvider>
+      <CartProvider>
         <>
         <h1>Checkout </h1>
-        <div>
+        <div >
             {items.map(item=>(
-                <div>
+                <div key={item.name}>
                     <h2> {item.name}</h2>
                     <h3> {item.category}</h3>
                 </div>
@@ -24,6 +24,7 @@ function Products(){
         
         </>
         </CartProvider>
+    
     )
 }
 export default Products;

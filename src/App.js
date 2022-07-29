@@ -30,7 +30,7 @@ function App() {
     <div className="container">
      <Navbar/>
      <Routes>
-     <Route exact path='/products' element={<Products />}></Route>
+     {/* <Route exact path='/products' element={<Products />}></Route> */}
      <Route exact path='/customer' element={<Customer />}></Route>
      <Route exact path='/' element={<Home/>}></Route>
     

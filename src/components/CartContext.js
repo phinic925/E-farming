@@ -10,7 +10,7 @@ const CartContext = createContext();
 
 
 
-return (
+ return (
     <CartContext.Provider value={{items,addToCart}}>
         {children}
     </CartContext.Provider>
