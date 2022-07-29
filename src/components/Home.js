@@ -1,29 +1,18 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import useFetch from "./useFetch";
+//import CartContext from "./CartContext";
 
 
 
-function Home({addToCart}){
+function Home({name,category}){
     const[data] = useFetch("http://localhost:3000/products")
     const[search,setSearch] = useState("");
-    
+     //const {addToCart} = useContext(CartContext);
 
-    // const handleClick = (item) => {
-    //     if (cart.indexOf(item) !== -1) return;
-    //     setCart([...cart, item]);
-    //   };
+   
     
-    //   const handleChange = (item, d) => {
-    //     const ind = cart.indexOf(item);
-    //     const arr = cart;
-    //     arr[ind].amount += d;
-    
-    //     if (arr[ind].amount === 0) arr[ind].amount = 1;
-    //     setCart([...arr]);
-    //   };
-       
-    
-    return(
+   return(
+      
         <>
         <h1 className="heading"> E-Ukulima Wetu </h1>
         <p className="para"> Welcome to Mkulima! </p>
@@ -50,7 +39,7 @@ function Home({addToCart}){
              {data
              
              .filter((item) =>{
-                if (search == ""){
+                if (search === ""){
                     return item;
                 }
                 else if(item.name.toLowerCase().includes(search.toLowerCase())){

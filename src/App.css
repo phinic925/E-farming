@@ -15,6 +15,9 @@
 }
 body{
     background-image: linear-gradient(to top, #0BA360 0%, #3CBA92 100%);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 form input{
@@ -33,6 +36,17 @@ form{
 }
 nav{
     width: 100%;
+    margin-right: 40px;
+    padding: 0px;
+    margin-left: 400px;
+    overflow: auto;
+}
+nav .link{
+    float: left;
+    padding: 22px;
+    color: white;
+    font-size: 20px;
+    width: 20%;
     
     
 }
@@ -59,6 +73,7 @@ img{
     color: wheat;
 }
 .header2{
+
     margin-left: 0px;
     color: wheat;
 
@@ -68,9 +83,9 @@ img{
     font-style: italic;
     color: wheat;
 }
-.button{
+ .button{
     
     margin-left: 100px;
     margin-bottom: 10px;
-    
+ 
 }
