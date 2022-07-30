@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, {useState } from "react";
 import useFetch from "./useFetch";
 //import CartContext from "./CartContext";
 
