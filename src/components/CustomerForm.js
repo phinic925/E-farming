@@ -1,6 +1,6 @@
 import React,{useState}from "react";
 
-function FarmerForm(){
+function CustomerForm(){
     const[name,setName] = useState("");
     const[image,setImage_url] = useState("");
     const[description,setDescription] = useState("");
@@ -57,4 +57,4 @@ function FarmerForm(){
         
     )
 }
-export default FarmerForm;
+export default CustomerForm;
