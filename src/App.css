@@ -118,3 +118,9 @@ img:hover {
 .header4 a.active {
     color: yellow;
 }
+
+.prod{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+}

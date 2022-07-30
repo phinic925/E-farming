@@ -1,14 +1,12 @@
 import React from "react";
-//import {CartProvider} from "./CartContext"
 
+function Products (){
 
-function Products(){
-    const {items} = useContext(CartContext);
 
     return(
       
         <>
-        <h1> No products currently ordered </h1>
+        <h1 className="prod"> No products currently ordered </h1>
           </>
     )
 }
