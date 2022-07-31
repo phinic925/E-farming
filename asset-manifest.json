@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E-farming/static/css/main.083332a3.css",
+    "main.js": "/E-farming/static/js/main.6d35dd94.js",
+    "index.html": "/E-farming/index.html",
+    "main.083332a3.css.map": "/E-farming/static/css/main.083332a3.css.map",
+    "main.6d35dd94.js.map": "/E-farming/static/js/main.6d35dd94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.083332a3.css",
+    "static/js/main.6d35dd94.js"
+  ]
+}
